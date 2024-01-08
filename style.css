@@ -1,0 +1,45 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+section {
+    margin: 2em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+#contact ul, #skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+#experience .experience-item, #volunteer .experience-item {
+    margin-bottom: 1em;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    clear: both;
+}
